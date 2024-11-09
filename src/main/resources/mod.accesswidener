@@ -1,0 +1,3 @@
+accessWidener	v1	named
+
+accessible field com/mojang/authlib/legacy/LegacyMinecraftSessionService JOIN_URL Ljava/net/URL;

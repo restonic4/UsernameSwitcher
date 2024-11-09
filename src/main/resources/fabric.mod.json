@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "serverdaw",
+  "version": "${version}",
+  "name": "ServerDaw",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/marco/ServerDaw"
+  },
+  "license": "MIT",
+  "icon": "assets/serverdaw/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.restonic4.serverdaw.client.ServerDawClient"
+    ],
+    "main": [
+      "com.restonic4.serverdaw.ServerDaw"
+    ]
+  },
+  "mixins": [
+    "serverdaw.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
